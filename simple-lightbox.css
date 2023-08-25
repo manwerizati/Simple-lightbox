@@ -16,7 +16,6 @@ img {
     height: auto;
 }
 
-/* wystylizuj div o klasie lightbox tak aby był responsywny zajmował 100% ekranu i miał lekko przezroczyste czarne tło */
 .lightbox {
     position: fixed;
     top: 0;
@@ -30,13 +29,11 @@ img {
     flex-direction: column;
 }
 
-/* zdjecie w divie o klasie lightbox ma zajmować automatyczną szerokość i wysokość ma mieć 80% */
 .lightbox img {
     width: auto;
     height: 80%;
 }
 
-/* utwórz keyframes o nazwie fadeIn */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -46,12 +43,10 @@ img {
     }
 }
 
-/* dodaj animacje do diva o klasie lightbox */
 .lightbox {
     animation: fadeIn 400ms ease-in-out;
 }
 
-/* umieść przycisk zamykający w prawym górnym rogu */
 .lightbox .lightbox__close {
     position: absolute;
     top: 25px;
@@ -63,7 +58,6 @@ img {
     cursor: pointer;
 }
 
-/* wystylizuj ładnie atrybut alt w klasie title-photo */
 .title-photo {
     width: 100%;
     color: #fff;
